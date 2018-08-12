@@ -1,0 +1,42 @@
+# Local Repository #
+localRepo:
+    mirrorOf: local
+    url: file:///opt/developments/eclipse-oxygen3a-j2ee-work/myprojects/thunderboltlei/X-Project/java/X-LoadingClassExpert/libs/repository
+
+# Remote Repository List #
+remoteRepoList: !!seq
+    - mirrorOf: central
+      url: http://maven.aliyun.com/nexus/content/repositories/central/
+    - mirrorOf: central
+      url: http://maven.aliyun.com/nexus/content/repositories/central/
+
+# Plugin Repository List
+#pluginRepoList: !!seq
+#    ~
+
+# Goal List #
+goalList: !!seq
+    - clean
+    - test
+
+# Mirror List #
+mirrorList: !!seq
+    - id: alimaven
+      name: aliyun maven
+      mirrorOf: central
+      url: http://maven.aliyun.com/nexus/content/repositories/central/
+      sourceLevel: "global-level"
+    - id: alimaven 01
+      name: aliyun maven 01
+      mirrorOf: central
+      url: http://maven.aliyun.com/nexus/content/repositories/central/
+      sourceLevel: "global-level"
+
+#SourceLevel:
+#    - "user-level"
+#    - "global-level"
+#
+#MIRROROF:
+#    - local
+#    - central
+#    - global

@@ -1,4 +1,4 @@
-package com.pyramid.http.client;
+package com.pyramid.testA;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -14,10 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.alibaba.fastjson.JSON;
-import com.streamsets.datacollector.distribution.client.DistributionHttpClient;
-import com.streamsets.datacollector.distribution.enums.NodeStateEnum;
-import com.streamsets.datacollector.distribution.server.DistributionHttpServer;
-import com.streamsets.datacollector.distribution.util.IPUtil;
+import com.pyramid.http.client.DistributionHttpClient;
 
 /**
  * @author thunderbolt.lei <br>

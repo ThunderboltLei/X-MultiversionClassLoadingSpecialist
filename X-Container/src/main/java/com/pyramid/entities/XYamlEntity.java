@@ -4,65 +4,38 @@ import java.util.List;
 
 import org.apache.maven.settings.Mirror;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * @author thunderbolt.lei <br>
  *
  */
 public class XYamlEntity implements java.io.Serializable {
 
-    /**
-     * 
-     */
-    private static final long serialVersionUID = 1360726885675308891L;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1360726885675308891L;
 
-    private XRepoEntity localRepo;
-    private List<XRepoEntity> remoteRepoList;
-    private List<XRepoEntity> pluginRepoList;
-    private List<String> goalList;
-    private List<Mirror> mirrorList;
+	@Setter
+	@Getter
+	private XRepoEntity localRepo;
 
-    public XYamlEntity() {
+	@Setter
+	@Getter
+	private List<XRepoEntity> remoteRepoList;
 
-    }
+	@Setter
+	@Getter
+	private List<XRepoEntity> pluginRepoList;
 
-    public XRepoEntity getLocalRepo() {
-        return localRepo;
-    }
+	@Setter
+	@Getter
+	private List<String> goalList;
 
-    public void setLocalRepo(XRepoEntity localRepo) {
-        this.localRepo = localRepo;
-    }
-
-    public List<XRepoEntity> getRemoteRepoList() {
-        return remoteRepoList;
-    }
-
-    public void setRemoteRepoList(List<XRepoEntity> remoteRepoList) {
-        this.remoteRepoList = remoteRepoList;
-    }
-
-    public List<XRepoEntity> getPluginRepoList() {
-        return pluginRepoList;
-    }
-
-    public void setPluginRepoList(List<XRepoEntity> pluginRepoList) {
-        this.pluginRepoList = pluginRepoList;
-    }
-
-    public List<String> getGoalList() {
-        return goalList;
-    }
-
-    public void setGoalList(List<String> goalList) {
-        this.goalList = goalList;
-    }
-
-    public List<Mirror> getMirrorList() {
-        return mirrorList;
-    }
-
-    public void setMirrorList(List<Mirror> mirrorList) {
-        this.mirrorList = mirrorList;
-    }
+	@Setter
+	@Getter
+	private List<Mirror> mirrorList;
 
 }

@@ -8,5 +8,6 @@
       <module>X-Assembly</module>
       <module>X-Container</module>
       <module>X-WebTool</module>
+      <module>X-Builder</module>
   </modules>
 </project>

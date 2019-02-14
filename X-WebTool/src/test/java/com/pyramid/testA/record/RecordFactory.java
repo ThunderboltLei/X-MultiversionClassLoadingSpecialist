@@ -1,4 +1,4 @@
-package com.pyramid.testA;
+package com.pyramid.testA.record;
 
 /**
  * @author thunderbolt.lei <br>

@@ -11,6 +11,7 @@
 
     <dependencies>
 
+        <!-- lombok -->
         <!-- fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -56,6 +57,11 @@
             <groupId>javax.ws.rs</groupId>
             <artifactId>javax.ws.rs-api</artifactId>
             <version>2.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
         </dependency>
     </dependencies>
 

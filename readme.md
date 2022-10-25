@@ -20,7 +20,7 @@
 > Therefore, this program is based on maven source code to implement new features that support multiple versions of the dependency package to solve such problems.
 
 ### Notes:
-> 1.mess in mind, need to rearrange.
+> 1. mess in mind, need to rearrange.
     
 ### Milestones:
-> 1.2018-08-02 Complete the initial version development & all tests. 
+> 1. 2018-08-02 Complete the initial version development & all tests. 
